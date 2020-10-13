@@ -1,18 +1,24 @@
 # Next Word Predictor
 
-:smiley:
+## Code -- In progress
 
-## **To Do:**
+## Application
+**Next Word Predictor** is usefull where we write emails, texts messages, also used in search engines, programming text editors, text documents such as MS Word and many other small applications. This can therefore make our typing easier, efficient and also cut down time. This application is built using **RNN - LSTM** model and **PyTorch** library.
 
-i) Code
+## Algorithms
+**RNN - LSTM** is a deep learning **sequence model**. **Recurrent Neural Network(RNN)** is a basic sequence model and for this particular application we use the **one to many architecture**. **Gated Recurrent Unit(GRU)** and **Long Short Term Memorry(LSTM)** are the modified versions of the basic RNN.
 
-ii) About Application
+> RNN Model
+![RNN](Images/RNN.png)
 
-iii) Algorithms used in it.
+> One to Many RNN Model
+![One to Many](Images/One_to_Many.png)
 
-iv) Links to dataset if any used.
+**GRU** and **LSTM** is prefered over basic RNN, this is due to **long range connections**(when there is a long sequence of words to be predicted) and **vanishing gradient problem**. These two reasons are taken care of in GRU and LSTM. In **GRU** we have **update and relevance gates** and **memory cell**, which helps in **memorizing** the previous words in the sequence and which helps in **predicting next words more accurately than RNN**. **LSTM** is more **general** and **powerful** than the GRU, it has **update, forget, output gates** and **memory cell**. This allows to separately keep track of **different effective words**(that might affect the next words) for **longer sequence/sentences** and also this makes the **predicted output more accurate than GRU**. The main difference during implementation is that **GRU** uses **less training parameters** and therefore use **less memory, execute faster and train faster** than LSTM, whereas LSTM is **more accurate on dataset using longer sequence**. In short, if sequence is large or accuracy is very critical, we can go for LSTM whereas for less memory consumption and faster operation we can go for GRU.
 
-v) How to run your model.
+## Links to dataset if any used
+
+## How to run your model
 
 
 **References to produce good readability:**
