@@ -25,5 +25,10 @@ The main difference between GRU and LSTM during implementation is that **GRU** u
 Alongside GRU or LSTM we can also use **Bidirectional RNN** model. This model would help us to **predict** and **re-predict** the words in a sequence after the full sequence is stored or made availabel to the model. This way the model can **correct itself** and **make more accurate predictions**. We also have **Deep RNNs** where **2 or more layers of RNN** are stacked upon each other. This can also be used with GRU, LSTM and Bidirectional RNN but it can make the model computationally more expensive and we use it only when the application needs it. 
 
 ## Links to dataset if any used
+[Blogs](http://u.cs.biu.ac.il/~koppel/BlogCorpus.htm)
+
+[WikiQA](http://research.microsoft.com/apps/mobile/download.aspx?p=4495da01-db8c-4041-a7f6-7984a4f6a905)
+
+[More](https://lionbridge.ai/datasets/the-best-25-datasets-for-natural-language-processing/)
 
 ## How to run your model
