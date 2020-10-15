@@ -29,6 +29,8 @@ Alongside GRU or LSTM we can also use **Bidirectional RNN** model. This model wo
 
 [WikiQA](http://research.microsoft.com/apps/mobile/download.aspx?p=4495da01-db8c-4041-a7f6-7984a4f6a905)
 
+[SciFi Stories](https://www.kaggle.com/jannesklaas/scifi-stories-text-corpus#)
+
 [More](https://lionbridge.ai/datasets/the-best-25-datasets-for-natural-language-processing/)
 
 ## How to run your model
