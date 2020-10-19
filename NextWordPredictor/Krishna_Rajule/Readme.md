@@ -6,13 +6,13 @@
 **Next Word Predictor** can be a useful tool where it can asssist us in writing emails, texts messages, also used in search engines, programming text editors, text documents such as MS Word and many other small applications. This can therefore make our typing easier, efficient and also cut down time. This application will be built using **RNN - LSTM** model and **PyTorch** library.
 
 ## Algorithms
-**RNN - LSTM** is a deep learning **sequence model**. **Recurrent Neural Network(RNN)** is a basic sequence model and for this particular application we use the **one to many architecture**. **Gated Recurrent Unit(GRU)** and **Long Short Term Memorry(LSTM)** are the modified versions of the basic RNN.
+**RNN - LSTM** is a deep learning **sequence model**. **Recurrent Neural Network(RNN)** is a basic sequence model and for this particular application we use the **many to one architecture**. **Gated Recurrent Unit(GRU)** and **Long Short Term Memorry(LSTM)** are the modified versions of the basic RNN.
 
 > RNN Model
 ![RNN](Images/RNN.png)
 
-> One to Many RNN Model
-![One to Many](Images/One_to_Many.png)
+> Many to One RNN Model
+![Many to One](Images/Many_to_One.png)
 
 **GRU** and **LSTM** is prefered over basic RNN, this is due to **long range connections**(when there is a long sequence of words to be predicted) and **vanishing gradient problem**(no dependncies of predicted words with the previous words in the sequence). These two reasons are taken care of in GRU and LSTM. In **GRU** we have **update and relevance gates** and **memory cell**, which helps in **memorizing** the previous words in the sequence and which helps in **predicting next words more accurately than RNN**. **LSTM** is more **general** and **powerful** than the GRU, it has **update, forget, output gates** and **memory cell**. This allows to separately keep track of **different effective words**(that might affect the next words) for **longer sequence/sentences** and also this makes the **predicted output more accurate than GRU**. 
 
