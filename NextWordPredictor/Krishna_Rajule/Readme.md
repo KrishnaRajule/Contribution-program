@@ -11,7 +11,7 @@
 > RNN Model
 ![RNN](Images/RNN.png)
 
-> Many to One RNN Model
+> Many to Many RNN Model
 ![Many to Many](Images/Many_to_Many.png)
 
 **GRU** and **LSTM** is prefered over basic RNN, this is due to **long range connections**(when there is a long sequence of words to be predicted) and **vanishing gradient problem**(no dependncies of predicted words with the previous words in the sequence). These two reasons are taken care of in GRU and LSTM. In **GRU** we have **update and relevance gates** and **memory cell**, which helps in **memorizing** the previous words in the sequence and which helps in **predicting next words more accurately than RNN**. **LSTM** is more **general** and **powerful** than the GRU, it has **update, forget, output gates** and **memory cell**. This allows to separately keep track of **different effective words**(that might affect the next words) for **longer sequence/sentences** and also this makes the **predicted output more accurate than GRU**. 
