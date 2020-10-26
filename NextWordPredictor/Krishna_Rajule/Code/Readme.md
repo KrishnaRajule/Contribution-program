@@ -1,9 +1,11 @@
 # Code - In Progress
 
-Stuck and getting error in the training of Pytorch LSTM module: utils -> model.py -> train -> flbo
+## Data Preprocessing: Done
+Clean data, Building Dataset(X,Y), Embeddings/One Hot Vector
+## Training Model: Done
+Model - Forward Propagation, Loss Calculation, Backward Propagation, Optimization, Updating Parameters
+## Predicting and Sampling: In Progress
+## Testing: Pending
+## Deployment: Pending
 
-Not able to squeeze the tensor to the required dimension.
-
-> ValueError: Expected target size (2, 88), got torch.Size([2, 46, 88])
-
-Please [mail](krishnarajule3@gmail.com) or [call](9886917391) if the issue was resolved or debugged. Thank You
+Contact: [mail](krishnarajule3@gmail.com) or [call](9886917391).. Thank You
