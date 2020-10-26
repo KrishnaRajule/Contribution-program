@@ -1,8 +1,8 @@
 # Code - In Progress
 
-## Data Preprocessing: Done
+## [Data Preprocessing](https://github.com/KrishnaRajule/Contribution-program/blob/master/NextWordPredictor/Krishna_Rajule/Code/utils/preprocessing.py): Done
 Clean data, Building Dataset(X,Y), Embeddings/One Hot Vector
-## Training Model: Done
+## [Training Model](https://github.com/KrishnaRajule/Contribution-program/blob/master/NextWordPredictor/Krishna_Rajule/Code/utils/model.py): Done
 Model - Forward Propagation, Loss Calculation, Backward Propagation, Optimization, Updating Parameters
 ## Predicting and Sampling: In Progress
 ## Testing: Pending
