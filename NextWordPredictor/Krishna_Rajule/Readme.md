@@ -3,7 +3,7 @@
 ## Code -- In progress
 
 ## Application
-**Next Word Predictor** can be a useful tool where it can asssist us in writing emails, texts messages, also used in search engines, programming text editors, text documents such as MS Word and many other small applications. This can therefore make our typing easier, efficient and also cut down time. This application will be built using **RNN - LSTM** model and **PyTorch** library.
+**Next Word Predictor** is a useful tool where it will assists us in writing emails, texts messages, also used in search engines, programming text editors, text documents such as MS Word and it is a Language Model which acts as the most common and important precursor to Voice Recognition. This application will be built using **RNN - LSTM** model and **PyTorch** library.
 
 ## Algorithms
 **RNN - LSTM** is a deep learning **sequence model**. **Recurrent Neural Network(RNN)** is a basic sequence model and for this particular application we use the **many to one architecture**. **Gated Recurrent Unit(GRU)** and **Long Short Term Memorry(LSTM)** are the modified versions of the basic RNN.
