@@ -1,6 +1,7 @@
 # Code - In Progress
 
 Stuck and getting error in the training of Pytorch LSTM module: utils -> model.py -> train -> flbo
+
 Not able to squeeze the tensor to the required dimension.
 
 > ValueError: Expected target size (2, 88), got torch.Size([2, 46, 88])
