@@ -34,3 +34,4 @@ Alongside GRU or LSTM we can also use **Bidirectional RNN** model. This model wo
 [More](https://lionbridge.ai/datasets/the-best-25-datasets-for-natural-language-processing/)
 
 ## How to run your model
+In the Jupyter Notebook, all the code blocks are serially arranged to run the code. Firstly, preprocessing of data is done and the dataset is built and along with it the one hot vector or the embeddings are produced. Then, the following blocks of code initializes the model parameters and various architectures such as LSTM, Softmax, Linear, etc and then the model is run for "n" number of epochs to train the model and parallely update the parameters. Finally, we can test and predict by using the model or the trained parameters, therefore using the trained parameters we can predict the output or the next word in the sequence after we give the model some input. 
